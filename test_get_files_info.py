@@ -1,0 +1,2 @@
+from functions.get_files_info import get_files_info
+print(get_files_info("calculator", ".")+(n:="\n")+get_files_info("calculator", "pkg")+n+get_files_info("calculator", "/bin")+n+get_files_info("calculator", "../"))
